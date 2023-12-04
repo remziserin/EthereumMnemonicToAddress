@@ -1,7 +1,4 @@
 const ethers = require('ethers')
-const network = 'mainnet'
-
-const provider = ethers.getDefaultProvider(network)
 
 async function mnemonicToAddress(mnemonic){
 
